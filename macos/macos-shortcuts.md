@@ -8,6 +8,7 @@
   - [Sleep, log out, and shut down shortcuts](#sleep-log-out-and-shut-down-shortcuts)
   - [Finder and system shortcuts](#finder-and-system-shortcuts)
   - [Document shortcuts](#document-shortcuts)
+  - [Operating System Commands](#operating-system-commands)
 
 ## Mac Keyboard Modifier keys
 | key  | description    |
@@ -223,3 +224,15 @@ _*The behavior of these shortcuts may vary with the app you're using_
 | ⇧ + ⌘ + (+)   | Increase the size of the selected item                                                                                             |
 | ⌘ + =         | performs the same function                                                                                                         |
 | ⇧ + ⌘ + ?     | Open the Help menu                                                                                                                 |
+
+  
+
+## Operating System Commands
+
+_*DNS, Cache, IP Addresses Etc..._
+
+**Flush DNS:**
+
+ 1. Type Terminal into Spotlight, or navigate to Go > Utilities > Terminal.
+ 2. In the Terminal window, enter the command: `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+Reference: https://www.lifewire.com/flush-dns-cache-on-a-mac-5209298
