@@ -2,3 +2,9 @@
 **/.vscode
 **/.env
 **/.DS_Store
+
+# Editor metadata
+.makemd/
+.space/
+.trash/
+*.canvas
